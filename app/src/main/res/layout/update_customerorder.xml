@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgound"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/cupdateproducename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <Spinner
+        android:id="@+id/cupdatelocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/location"/>
+
+    <Spinner
+        android:id="@+id/cupdatetype"
+        android:entries="@array/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/cupdatequantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter new Quantity"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/cupdatedate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select new Date" />
+
+    <TextView
+        android:id="@+id/cupdatetotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/cupdatebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/cdeletebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/deletebutton"
+        android:text="DELETE" />
+
+</LinearLayout>

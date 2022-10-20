@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "167564578546",
+    "firebase_url": "https://kilimo-easy.firebaseio.com",
+    "project_id": "kilimo-easy",
+    "storage_bucket": "kilimo-easy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167564578546:android:cd53e53f8befc0604a4a6b",
+        "android_client_info": {
+          "package_name": "com.example.kilimoeasy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167564578546-eosj3tn03hif012i1n9p6c26ncbrikco.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kilimoeasy",
+            "certificate_hash": "4598c16945371c47aeff493aa232af573322db6b"
+          }
+        },
+        {
+          "client_id": "167564578546-ejas4n89snjuu04mat7t90hc4uomohn2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-Dc7a5qGqAeSF-lpd2JsrbQ9d9mCeLKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "167564578546-ejas4n89snjuu04mat7t90hc4uomohn2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

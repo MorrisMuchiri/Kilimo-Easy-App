@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kilimoeasy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FarmerMoney1"></activity>
+        <activity android:name=".Farmer_Payment1" />
+        <activity android:name=".BuyPrice_Pay1" />
+        <activity android:name=".VendorMoney1" />
+        <activity android:name=".Vendor_Payment0" />
+        <activity android:name=".SalePrice_Pay301" />
+        <activity android:name=".CustomerMoney1" />
+        <activity android:name=".Customer_Payment1" />
+        <activity android:name=".SalePrice_Pay1" />
+        <activity android:name=".AdminSpecialLogin" />
+        <activity android:name=".FarmerMoney" />
+        <activity android:name=".Farmer_Payment" />
+        <activity android:name=".BuyPrice_Pay" />
+        <activity android:name=".VendorMoney" />
+        <activity android:name=".Vendor_Payment1" />
+        <activity android:name=".SalePrice_Pay31" />
+        <activity android:name=".CustomerMoney" />
+        <activity android:name=".SalePrice_Pay21" />
+        <activity android:name=".Customer_Payment21" />
+        <activity android:name=".Vendor_Payment" />
+        <activity android:name=".SalePrice_Pay3" />
+        <activity android:name=".Customer_Payment2" />
+        <activity android:name=".SalePrice_Pay2" />
+        <activity android:name=".SalePrice_Pay" />
+        <activity android:name=".Customer_Payment" />
+        <activity android:name=".FarmerOrder" />
+        <activity android:name=".VendorOrder" />
+        <activity android:name=".SalePrice2" />
+        <activity android:name=".CustomerOrder" />
+        <activity android:name=".SalePrice" />
+        <activity android:name=".BuyPrice" />
+        <activity android:name=".AdminProduce" />
+        <activity android:name=".AdminPage" />
+        <activity android:name=".VendorPage" />
+        <activity android:name=".FarmerPage" />
+        <activity android:name=".CustomerLogin" />
+        <activity android:name=".CustomerPage" />
+        <activity android:name=".VendorRegister" />
+        <activity android:name=".FarmerRegister" />
+        <activity android:name=".AdminRegister" />
+        <activity android:name=".CustomerRegister" />
+        <activity android:name=".AdminLogin" />
+        <activity android:name=".VendorLogin" />
+        <activity android:name=".FarmerLogin" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

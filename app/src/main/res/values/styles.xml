@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <array name="fruits">
+        <item>Mangoes</item>
+        <item>Bananas</item>
+        <item>Oranges</item>
+        <item>Passion Fruits</item>
+    </array>
+    <array name="type">
+        <item>Ripe</item>
+    </array>
+    <array name="pay">
+        <item>Paid</item>
+    </array>
+    <array name="type1">
+        <item>Ripe</item>
+        <item>UnRipe</item>
+    </array>
+    <array name="location1">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </array>
+    <array name="location">
+        <item>1 - Nairobi</item>
+        <item>2 - Nakuru</item>
+        <item>3 - Mombasa</item>
+        <item>4 - Embu</item>
+        <item>5 - Kisumu</item>
+    </array>
+
+</resources>
